@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "livepublicator": { "url": "https://livepublicator.com/api/mcp" }
+  }
+}

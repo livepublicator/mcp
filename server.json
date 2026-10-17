@@ -1,0 +1,58 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.livepublicator/livepublicator",
+  "title": "LivePublicator",
+  "description": "Write, preview and publish your company's press releases from the chat, with a live link in seconds.",
+  "version": "2.0.3",
+  "websiteUrl": "https://livepublicator.com/publish-from-ai",
+  "repository": {
+    "url": "https://github.com/livepublicator/mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://livepublicator.com/brand/livepublicator-icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://livepublicator.com/brand/livepublicator-icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://livepublicator.com/api/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "auth": "oauth2.1",
+      "documentation": "https://livepublicator.com/docs/mcp",
+      "support": "support@livepublicator.com",
+      "categories": [
+        "Marketing",
+        "Communication",
+        "Productivity"
+      ],
+      "keywords": [
+        "press release",
+        "publish press release",
+        "announcement",
+        "product launch",
+        "company news",
+        "launch announcement",
+        "newsroom",
+        "media release",
+        "PR"
+      ],
+      "oneLiner": "Write, preview and publish your company's press releases in an AI-optimized format, straight from the chat. Get the live link back in seconds."
+    }
+  }
+}
