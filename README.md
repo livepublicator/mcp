@@ -72,6 +72,14 @@ claude mcp add --transport http livepublicator https://livepublicator.com/api/mc
 
 Then type `/mcp` and sign in.
 
+### Gemini CLI
+
+```
+gemini extensions install https://github.com/livepublicator/mcp
+```
+
+Previews work without signing in. Before your first release, run `/mcp auth livepublicator` in Gemini CLI: the sign-in opens in your browser, then sign in with the link we email you.
+
 ### Cursor, Windsurf and other MCP clients
 
 Add a server named `livepublicator` with the address `https://livepublicator.com/api/mcp` in their MCP settings, then sign in when asked. For a `mcp.json` file:

@@ -1,0 +1,10 @@
+{
+  "name": "livepublicator",
+  "version": "2.0.3",
+  "description": "LivePublicator publishes company news as AI-ready press releases for small businesses, startups and agencies: live the same day, from $9 for the first release, then $49.",
+  "mcpServers": {
+    "livepublicator": {
+      "httpUrl": "https://livepublicator.com/api/mcp"
+    }
+  }
+}
